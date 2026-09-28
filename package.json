@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/deltaheap",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Delta lightweight heap statistics from stdin samples.",
+  "bin": {
+    "deltaheap": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/deltaheap.git"
+  },
+  "homepage": "https://theworker02.github.io/deltaheap/",
+  "keywords": [
+    "delta",
+    "heap",
+    "stat",
+    "cli",
+    "toolkit"
+  ]
+}
